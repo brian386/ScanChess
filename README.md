@@ -121,6 +121,10 @@ In the directory named "Backend", run:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+See full demo video <a href="https://youtu.be/u9i2h12Fraw"> here </a>: 
+<br/>
+** Note: Due to a lack of training images, the ChessVision app works only on chess sets similar to the one shown in the demo video: black and white chess pieces with green and white chess board. 
+
 1. Set up your webcam to capture an overhead view of the chess board.
 2. Make sure the chess board is empty, and press "Calibrate".
 3. Set up the chess pieces and press "Calibrate" again to complete the calibration.
