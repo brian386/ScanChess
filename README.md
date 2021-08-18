@@ -106,7 +106,13 @@ Instructions will be posted shortly
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Usage will be added shortly
+1. Set up your webcam to capture an overhead view of the chess board.
+2. Make sure the chess board is empty, and press "Calibrate".
+3. Set up the chess pieces and press "Calibrate" again to complete the calibration.
+4. Play a chess move. Press "Confirm Move" once the chess move has been made.
+5. The digital chess board should update accordingly. 
+6. Continue playing the game until checkmate or stalemate. Remember to press "Confirm Move" after every move.
+7. Watch the game unfold on the digital chess board, copy the pgn notation for your records, or plug the FEN position into an engine to analyze the game!
 
 
 <!-- CONTACT -->
