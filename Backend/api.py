@@ -87,7 +87,7 @@ def calibrate():
             cv2.imwrite('debug.jpg', rotate(crop_board(img_to_calibrate, np.array(session['board_corners'])), session['orientation']))
             return {
                 'status': 'CALIBRATION_COMPLETE',
-                'message': 'successfully found orientation',
+                'message': 'Calibration complete. Play some moves!',
             }
         else:
             print("calibrated")
@@ -95,7 +95,7 @@ def calibrate():
             cv2.imwrite('debug.jpg', crop_board(img_to_calibrate, np.array(session['board_corners'])))
             return {
                 'status': 'OK',
-                'message': 'successfully found corners'
+                'message': 'Next, press Calibrate again after setting up the board'
             }
 
         return {'status': 'idk what happened'}

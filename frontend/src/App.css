@@ -168,3 +168,8 @@ p, div {
   color: white;
   white-space: pre-wrap;
 }
+
+.FEN{
+  font-size: 16px;
+  padding: 10px;
+}
