@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./frontend/src/images/banner3.jpg" alt="Logo" width="400" height="200">
+    <img src="./frontend/src/images/banner3.jpg" alt="Logo" width="800" height="400">
   </a>
 
   <h3 align="center">ChessVision</h3>
