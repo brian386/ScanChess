@@ -118,7 +118,7 @@ In the directory named "frontend", run:
 <br/>
 ```npm start```
 <br/>
-In the director named "Backend", run:
+In the directory named "Backend", run:
 <br/>
 ```python api.py```
 
