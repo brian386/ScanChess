@@ -38,7 +38,7 @@
   <p align="center">
     A computer vision web app to track over the board chess moves!
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://youtu.be/u9i2h12Fraw">View Demo Video</a>
   </p>
 </p>
 
