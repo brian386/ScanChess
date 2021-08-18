@@ -99,9 +99,25 @@ ChessVision is a great way to record your games for later analysis and improve a
 
 Instructions will be posted shortly
 ### Prerequisites
-
+* Python
+* NumPy
+* OpenCV
+* Tensorflow
+* Flask
+* io
+* base64
+* python-chess
+* ChessboardJSX
+* react-webcam
 ### Installation
 
+```git clone https://github.com/brian386/ChessVision.git```
+
+### Start the app
+In the directory named "frontend", run:
+```npm start```
+In the director named "Backend", run:
+```python api.py```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
