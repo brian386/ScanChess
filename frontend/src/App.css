@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chessboardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0px;
+  background-color: rgba(100, 100, 100,0.6);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 100%;
+  overflow-wrap: break-word;
+}
+
+.chessboard{
+
+}
+.webcamContainer{
+  border-radius: 0px;
+  background-color: rgba(100, 100, 100,0.5);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 5px;
+
+}
+
+
+.webcam{
+  padding: 20px;
+}
+.button {
+   /* Green */
+  border: 2px solid #557a95;
+
+  border-radius: 10px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px;
+
+  background-color: #557a95;
+  color: white;
+  font-family: "Candara"
+}
+.button:hover {
+  border-radius: 10px;
+  background-color: #d9ecff;
+  color: black;
+  font-family: "Candara"
+}
+
+#calibrateButton{
+
+}
+
+#moveButton{
+
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: grid;
+
+  grid-template-colums: 2fr 1fr;
+  grid-template-rows: 600px 1fr 1fr;
+
+  gap: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  background: url("images/darkChessBackground.jpg");
+  background-size: cover;                      /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.header{
+  background-color: rgba(115, 149, 174,0.5);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 5px;
+
+  background-image: url('images/banner3.jpg');
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+}
+
+img{
+  max-height: 100%;
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Candara;
+  color: white;
+}
+
+h2{
+  font-size: 50px;
+}
+p, div {
+  font-family: Candara;
+  font-size: 24px;
+  color: white;
+  white-space: pre-wrap;
+}
