@@ -115,8 +115,11 @@ Instructions will be posted shortly
 
 ### Start the app
 In the directory named "frontend", run:
+<br/>
 ```npm start```
+<br/>
 In the director named "Backend", run:
+<br/>
 ```python api.py```
 
 <!-- USAGE EXAMPLES -->
