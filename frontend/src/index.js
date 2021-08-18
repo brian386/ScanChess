@@ -26,6 +26,7 @@ const VideoCapture = function(props){
     const [result, setResult] = React.useState({});
     const [mode, setMode] = React.useState('CALIBRATE');
     const [promotionPiece, setPromotionPiece] = React.useState('q');
+    const [gameStatus, setGameStatus] = React.useState('');
     const calibration_capture = React.useCallback(
         async ()=>{
             const imageSrc = webcamRef.current.getScreenshot({width: 800, height: 600});
@@ -57,18 +58,6 @@ const VideoCapture = function(props){
                 setResult("Error from api");
             }
 
-            /*
-            //AXIOS POSTING
-            axios.post('http://127.0.0.1:5000/api', {data: imageSrc})
-                .then(res => {
-                    console.log(`response = ${res.data}`)
-                    setResult(res.data)
-                })
-                .catch(error=>{
-                    console.log(`error = ${error}`)
-                })
-
-             */
         },
         [webcamRef]
     );
@@ -90,9 +79,16 @@ const VideoCapture = function(props){
             });
 
             if(response.status === 200) {
-
                 const text = await response.json();
                 setResult(text);
+                //check win
+                if(text['game_result'] == 'WHITE_WIN'){
+                    setGameStatus('White won');
+                } else if(text['game_result'] == 'BLACK_WIN'){
+                    setGameStatus('Black won')
+                } else if (text['game_result'] == 'DRAW'){
+                    setGameStatus('game was a draw')
+                }
                 if(text['status'] != 'ERR') {
                     props.updatePosition(text['position']);
                     props.addMove(text['move']);
@@ -130,6 +126,7 @@ const VideoCapture = function(props){
             </div>
             {curButton}
             <p>{result['message']}</p>
+            <p>{gameStatus}</p>
             {console.log(JSON.stringify(result))}
         </div>
     )
