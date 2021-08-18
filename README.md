@@ -22,10 +22,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -72,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
+![ChessVision demonstration gif](./ImagesForReadme/chessVisionDemo.gif)
 
 Chess is a game of studying. To improve, one must always record their games for analysis. However, for casual chess players, recording chess moves on pen and paper may seem tedious and distracting. Alternatively, DGT boards used in top-level tournaments are expensive and impractical for casual chess matches. ChessVision allows users to track over-the-board chess moves with nothing more than a simple webcam and tripod.
 
@@ -150,11 +146,4 @@ Project Link: [https://github.com/brian386/ChessVision](https://github.com/brian
 * [ChessboardJSX](https://chessboardjsx.com/)
 
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/brian-zhang-ba27071b8/
  
