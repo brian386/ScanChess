@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./frontend/src/images/banner3.jpg" alt="Logo" width="80" height="80">
+    <img src="./frontend/src/images/banner3.jpg" alt="Logo" width="400" height="200">
   </a>
 
   <h3 align="center">ChessVision</h3>
@@ -103,8 +103,6 @@ Instructions will be posted shortly
 ### Installation
 
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -114,9 +112,9 @@ Usage will be added shortly
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Feel free to email me at bz88keys@gmail.com.
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/brian386/ChessVision](https://github.com/brian386/ChessVision)
 
 
 
