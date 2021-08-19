@@ -26,10 +26,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./frontend/src/images/banner3.jpg" alt="Logo" width="800" height="400">
+    <img src="./ImagesForReadme/scanchess.jpg" alt="Logo" width="800" height="800">
   </a>
 
-  <h3 align="center">ChessVision</h3>
+  <h3 align="center">ScanChess</h3>
 
   <p align="center">
     A computer vision web app to track over the board chess moves!
@@ -68,17 +68,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![ChessVision demonstration gif](./ImagesForReadme/chessVisionDemo.gif)
+![ScanChess demonstration gif](./ImagesForReadme/chessVisionDemo.gif)
 
-Chess is a game of studying. To improve, one must always record their games for analysis. However, for casual chess players, recording chess moves on pen and paper may seem tedious and distracting. Alternatively, DGT boards used in top-level tournaments are expensive and impractical for casual chess matches. ChessVision allows users to track over-the-board chess moves with nothing more than a simple webcam and tripod.
+Chess is a game of studying. To improve, one must always record their games for analysis. However, for casual chess players, recording chess moves on pen and paper may seem tedious and distracting. Alternatively, DGT boards used in top-level tournaments are expensive and impractical for casual chess matches. ScanChess allows users to track over-the-board chess moves with nothing more than a simple webcam and tripod.
 
-With ChessVision, you can:
+With ScanChess, you can:
 
 -  See a digital replica of your game on the app
 -  Get the moves of your game in pgn notation
 -  Get the current FEN of your position
 
-ChessVision is a great way to record your games for later analysis and improve as a chess player!
+ScanChess is a great way to record your games for later analysis and improve as a chess player!
 
 ### Built With
 
@@ -107,7 +107,7 @@ Instructions will be posted shortly
 * react-webcam
 ### Installation
 
-```git clone https://github.com/brian386/ChessVision.git```
+```git clone https://github.com/brian386/ScanChess.git```
 
 ### Start the app
 In the directory named "frontend", run:
@@ -124,7 +124,7 @@ In the directory named "Backend", run:
 See full demo video <a href="https://youtu.be/u9i2h12Fraw"> here </a>: 
 <br/> <br/>
 
-<strong> Note: Due to a lack of training images, the ChessVision app works only on chess sets similar to the one shown in the demo video: black and white chess pieces with green and white chess board. </strong>
+<strong> Note: Due to a lack of training images, the ScanChess app works only on chess sets similar to the one shown in the demo video: black and white chess pieces with green and white chess board. </strong>
 
 1. Set up your webcam to capture an overhead view of the chess board.
 2. Make sure the chess board is empty, and press "Calibrate".
@@ -140,7 +140,7 @@ See full demo video <a href="https://youtu.be/u9i2h12Fraw"> here </a>:
 
 Feel free to email me at bz88keys@gmail.com.
 
-Project Link: [https://github.com/brian386/ChessVision](https://github.com/brian386/ChessVision)
+Project Link: [https://github.com/brian386/ScanChess](https://github.com/brian386/ScanChess)
 
 
 
