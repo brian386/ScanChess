@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./ImagesForReadme/ScanChessLogo.jpg" alt="Logo" width="500" height="400">
+    <img src="./ImagesForReadme/ScanChessLogo.jpg" alt="Logo" width="550" height="400">
   </a>
 
   <h3 align="center">ScanChess</h3>
@@ -34,7 +34,7 @@
   <p align="center">
     A computer vision web app to track over the board chess moves!
     <br />
-    <a href="https://youtu.be/u9i2h12Fraw">View Demo Video</a>
+    <a href="https://www.youtube.com/watch?v=vYw5ZPOheKw">View Demo Video</a>
   </p>
 </p>
 
@@ -121,7 +121,7 @@ In the directory named "Backend", run:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-See full demo video <a href="https://youtu.be/u9i2h12Fraw"> here </a>: 
+See full demo video <a href="https://www.youtube.com/watch?v=vYw5ZPOheKw"> here </a>: 
 <br/> <br/>
 
 <strong> Note: Due to a lack of training images, the ScanChess app works only on chess sets similar to the one shown in the demo video: black and white chess pieces with green and white chess board. </strong>
