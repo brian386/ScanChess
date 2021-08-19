@@ -95,7 +95,8 @@ ScanChess is a great way to record your games for later analysis and improve as 
 
 Instructions will be posted shortly
 ### Prerequisites
-* Python
+
+#### Backend
 * NumPy
 * OpenCV
 * Tensorflow
@@ -103,8 +104,15 @@ Instructions will be posted shortly
 * io
 * base64
 * python-chess
+
+#### Frontend
 * ChessboardJSX
 * react-webcam
+
+#### Hardware
+* Webcam
+* Tripod (or any other way to mount the webcam)
+
 ### Installation
 
 ```git clone https://github.com/brian386/ScanChess.git```
