@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./ImagesForReadme/ScanChessLogo.jpg" alt="Logo" width="600" height="400">
+    <img src="./ImagesForReadme/ScanChessLogo.jpg" alt="Logo" width="500" height="400">
   </a>
 
   <h3 align="center">ScanChess</h3>
