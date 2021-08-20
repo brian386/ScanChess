@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./ImagesForReadme/ScanChessLogo.jpg" alt="Logo" width="550" height="400">
+    <img src="./ImagesForReadme/ScanChessLogo.jpg" alt="Logo" height="400">
   </a>
 
   <h3 align="center">ScanChess</h3>
@@ -68,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./ImagesForReadme/chessVisionDemo.gif" width="800" />
+<img src="./ImagesForReadme/chessVisionDemo.gif" width="900" />
                                                                         
 Chess is a game of studying. To improve, one must always record their games for analysis. However, for casual chess players, recording chess moves on pen and paper may seem tedious and distracting. Alternatively, DGT boards used in top-level tournaments are expensive and impractical for casual chess matches. ScanChess allows users to track over-the-board chess moves with nothing more than a simple webcam and tripod.
 
