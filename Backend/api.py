@@ -31,11 +31,11 @@ def api():
         b = bytes(result, 'utf-8')
         image = b[b.find(b'/9'):]
         im = Image.open(io.BytesIO(base64.b64decode(image)))
-        im.save('testing.jpg')
+        #im.save('testing.jpg')
 
         cv_img = np.array(im.convert('RGB'))
         cv_img = cv_img[:,:,::-1].copy()
-        cv2.imwrite('testing2.jpg', cv_img)
+        #cv2.imwrite('testing2.jpg', cv_img)
 
         return {
             "data": str(request.get_json())
@@ -92,7 +92,7 @@ def calibrate():
         else:
             print("calibrated")
             session['board_corners'] = find_board_corners(img_to_calibrate).tolist()
-            cv2.imwrite('debug.jpg', crop_board(img_to_calibrate, np.array(session['board_corners'])))
+            #cv2.imwrite('debug.jpg', crop_board(img_to_calibrate, np.array(session['board_corners'])))
             return {
                 'status': 'OK',
                 'message': 'Next, press Calibrate again after setting up the board'
