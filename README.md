@@ -34,7 +34,7 @@
   <p align="center">
     A computer vision web app to track over the board chess moves!
     <br />
-    <a href="https://www.youtube.com/watch?v=vYw5ZPOheKw">View Demo Video</a>
+    <a href="https://youtu.be/p5uTulzoaV4">View Demo Video</a>
   </p>
 </p>
 
@@ -129,7 +129,7 @@ In the directory named "Backend", run:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-See full demo video <a href="https://www.youtube.com/watch?v=vYw5ZPOheKw"> here </a>: 
+See full demo video <a href="https://youtu.be/p5uTulzoaV4"> here </a>: 
 <br/> <br/>
 
 <strong> Note: Due to a lack of training images, the ScanChess app works only on chess sets similar to the one shown in the demo video: black and white chess pieces with green and white chess board. </strong>
@@ -137,11 +137,9 @@ See full demo video <a href="https://www.youtube.com/watch?v=vYw5ZPOheKw"> here 
 1. Set up your webcam to capture an overhead view of the chess board.
 2. Make sure the chess board is empty, and press "Calibrate".
 3. Set up the chess pieces and press "Calibrate" again to complete the calibration.
-4. Play a chess move. Press "Confirm Move" once the chess move has been made.
-5. The digital chess board should update accordingly. 
-6. Continue playing the game until checkmate or stalemate. Remember to press "Confirm Move" after every move.
-7. Watch the game unfold on the digital chess board, copy the pgn notation for your records, or plug the FEN position into an engine to analyze the game!
-
+4. Play a chess move. Press "Confirm Move" once the chess move has been made. The digital chess board should update accordingly. 
+5. Continue playing the game until checkmate or stalemate. Remember to press "Confirm Move" after every move.
+6. Watch the game unfold on the digital chess board, copy the pgn notation for your records, or plug the FEN position into an engine to analyze the game!
 
 <!-- CONTACT -->
 ## Contact
@@ -149,8 +147,6 @@ See full demo video <a href="https://www.youtube.com/watch?v=vYw5ZPOheKw"> here 
 Feel free to email me at bz88keys@gmail.com.
 
 Project Link: [https://github.com/brian386/ScanChess](https://github.com/brian386/ScanChess)
-
-
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
