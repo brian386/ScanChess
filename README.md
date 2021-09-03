@@ -97,17 +97,22 @@ Instructions will be posted shortly
 ### Prerequisites
 
 #### Backend
-* NumPy
-* OpenCV
-* Tensorflow
-* Flask
-* io
-* base64
-* python-chess
+* [NumPy](https://numpy.org/)
+```pip install numpy```
+* [OpenCV](https://opencv.org/)
+```pip install opencv-python```
+* [Tensorflow](https://www.tensorflow.org/)
+```pip install tensorflow```
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+```pip install Flask```
+* [python-chess](https://python-chess.readthedocs.io/en/latest/)
+```pip install chess```
 
 #### Frontend
-* ChessboardJSX
-* react-webcam
+* [ChessboardJSX](https://chessboardjsx.com/)
+```npm install --save chessboardjsx```
+* [React Webcam](https://www.npmjs.com/package/react-webcam)
+```npm install react-webcam```
 
 #### Hardware
 * Webcam
@@ -129,6 +134,7 @@ In the directory named "Backend", run:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+### Web App
 See full demo video <a href="https://youtu.be/p5uTulzoaV4"> here </a>: 
 <br/> <br/>
 
@@ -141,18 +147,17 @@ See full demo video <a href="https://youtu.be/p5uTulzoaV4"> here </a>:
 5. Continue playing the game until checkmate or stalemate. Remember to press "Confirm Move" after every move.
 6. Watch the game unfold on the digital chess board, copy the pgn notation for your records, or plug the FEN position into an engine to analyze the game!
 
+### Chess Image Classification
+
+The file named ChessImageClassification holds the notebook I used for gathering a training dataset and training the convolutional neural network. The dataset I used to train my model is not included in this file because the it is too large. Feel free to download the code yourself to train a model on your own dataset.
+
 <!-- CONTACT -->
 ## Contact
 
-Feel free to email me at bz88keys@gmail.com.
+Email: bz88keys@gmail.com
 
 Project Link: [https://github.com/brian386/ScanChess](https://github.com/brian386/ScanChess)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* [python-chess](https://python-chess.readthedocs.io/en/latest/)
-* [ChessboardJSX](https://chessboardjsx.com/)
 
 
  
