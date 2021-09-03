@@ -101,7 +101,7 @@ Instructions will be posted shortly
 ```pip install numpy```
 * [OpenCV](https://opencv.org/)
 ```pip install opencv-python```
-* [Tensorflow](https://www.tensorflow.org/)
+* [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/about/)
 ```pip install tensorflow```
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 ```pip install Flask```
