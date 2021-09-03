@@ -84,7 +84,7 @@ ScanChess is a great way to record your games for later analysis and improve as 
 
 * [React](https://reactjs.org/)
 * [Python](https://www.python.org/)
-* [Tensorflow](https://www.tensorflow.org/)
+* [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/about/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [OpenCV](https://opencv.org/)
 
@@ -101,7 +101,7 @@ Instructions will be posted shortly
 ```pip install numpy```
 * [OpenCV](https://opencv.org/)
 ```pip install opencv-python```
-* [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/about/)
+* [Tensorflow](https://www.tensorflow.org/)
 ```pip install tensorflow```
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 ```pip install Flask```
