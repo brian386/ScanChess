@@ -148,7 +148,7 @@ See full demo video <a href="https://youtu.be/p5uTulzoaV4"> here </a>:
 
 ### Chess Image Classification
 
-The file named ChessImageClassification holds the notebook I used for gathering a training dataset and training the convolutional neural network. The dataset I used to train my model is not included in this file because the it is too large. Feel free to download the code yourself to train a model on your own dataset.
+The file named ChessImageClassification holds the notebook I used for gathering a training dataset and training the convolutional neural network. The model classifies whether an image is a white piece, a black piece, or an empty square. The dataset I used to train my model is not included in this file because the it is too large. Feel free to download the code yourself to train a model on your own dataset.
 
 <!-- CONTACT -->
 ## Contact
